@@ -138,3 +138,6 @@ c6e4f137-fe0d-4722-a42f-2ffc1d0faa4e,2025-10-15T00:00:00,Наличка RMB 5000
 73dabf2a-10dd-49da-a7e9-8cfc1f78d798,2025-11-09T00:00:00,UNIQLO (RMB 160),Shopping,RMB Наличка,1900.0,RUB,1.0,SPEND,Notion|БТ-Отдых
 cc10cf34-07a9-4bef-9456-9bb9a79caaad,2025-11-12T00:00:00,Траты на остальное - Сводка остатка налички RMB (30270),General,RMB Наличка,18506.0,RUB,1.0,SPEND,Notion|БТ-Отдых
 cdc8ac44-4352-438e-8566-f80a26973199,2025-10-15T00:00:00,Alipay RMB 6000,,Alipay,71272.0,RUB,1.0,TRANSFER,Notion|БТ-Отдых
+f4bc2768-d71c-4e6b-bbaf-1fbaf58b4886,2025-10-12T14:40:00,Никита вернул Хайкоу,,Alipay,4.83,CNY,11.8788,RETURNED,Возврат мне|import
+3cc3225e-ed0b-405d-a7be-18f558dde13b,2025-10-13T15:28:00,Стас вернул,,Alipay,262.14,CNY,11.8788,RETURNED,Возврат мне|import
+6f2ef772-2855-421a-a74e-66d0b9c9d5f4,2025-10-13T15:28:00,Никита (Маша) вернул Хайкоу,,Alipay,31.2,CNY,11.8788,RETURNED,Возврат мне|import

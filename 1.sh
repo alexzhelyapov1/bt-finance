@@ -48,3 +48,6 @@ python3 -B main.py add "Траты на остальное - Сводка ост
 
 # Перевод на Alipay
 python3 -B main.py add "Alipay RMB 6000" 71272 -t TRANSFER -p "Alipay" -d "2025-10-15" --tags "Notion,БТ-Отдых"
+
+python3 -B main.py add "Никита (Маша) вернул Хайкоу" 31.20 -t RETURNED -p "Alipay" -c CNY -r 11.8788 -d "2025-10-13 15:28:00" --tags "Возврат мне,import"
+
