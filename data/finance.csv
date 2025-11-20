@@ -127,11 +127,19 @@ c9788baf-1f6d-4517-9aa1-5aafa4cfca66,2025-10-18T10:57:47,Payment Received-AEdach
 3e5032de-d73a-42f5-ae97-5b28d3c54a8e,2025-10-17T23:43:07,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,0.5,CNY,11.8788,SPEND,import
 2f1b2225-1361-4257-b7e3-94f27a7c2c8b,2025-10-17T23:29:37,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,4.0,CNY,11.8788,SPEND,import
 8b81634f-78af-4746-9589-6c761df20c78,2025-10-17T22:32:30,Payment Received-ILIA,,Alipay,50.0,CNY,11.8788,INCOME,import
-cc10cf34-07a9-4bef-9456-9bb9a79caaad,2025-11-12T00:00:00,Траты на остальное - Сводка остатка налички RMB (30270) (18506.0 RUB),General,RMB Наличка,1557.9,CNY,11.8788,SPEND,Notion|БТ-Отдых
-73dabf2a-10dd-49da-a7e9-8cfc1f78d798,2025-11-09T00:00:00,UNIQLO (RMB 160 (1900.0 RUB)),Shopping,RMB Наличка,160.0,CNY,11.8788,SPEND,Notion|БТ-Отдых
-a359c2f2-f6ed-4c1f-abf7-f1321bd7fb2b,2025-10-15T00:00:00,Пекин (534 RMBm 6343.0 RUB),Travel,RMB Наличка,534.0,CNY,11.8788,SPEND,Notion|БТ-Отдых
-770ba88e-2c9b-405f-8b94-182d32f9cfdc,2025-10-15T00:00:00,Симка (200 RMB (2375.0 RUB)),Communications,RMB Наличка,200.0,CNY,11.8788,SPEND,Notion|БТ-Отдых
-c6e4f137-fe0d-4722-a42f-2ffc1d0faa4e,2025-10-15T00:00:00,Наличка RMB 5000 (59394.0 RUB),,RMB Наличка,5000.0,CNY,11.8788,TRANSFER,Notion|БТ-Отдых
+e36d4081-9801-46c4-86a3-d2756106592f,2025-10-28T00:00:00,Докупил HKD (200 RMB),,RMB Наличка,200.0,CNY,11.8788,TRANSFER,
+ef41b559-24b8-424c-999b-7becd33b8898,2025-10-27T00:00:00,Отдал 1000 АА для перевода на алипей,,RMB Наличка,-1000.0,CNY,11.8788,TRANSFER,
+9ae209e8-c0f4-485c-bbeb-7e9085189564,2025-10-26T00:00:00,Отдал 1000 АА (долг),Duty,RMB Наличка,1000.0,CNY,11.8788,SPEND,Duty
+2bc5d4cb-2667-4ba0-8824-fad3f7cc11a6,2025-10-25T00:00:00,Купил MOP (500 RMB),,RMB Наличка,-500.0,CNY,11.8788,TRANSFER,
+bb28a66f-87da-421c-a305-ae4e11ddbafd,2025-10-24T00:00:00,Uniqlo,Shopping,RMB Наличка,160.0,CNY,11.8788,SPEND,
+0e592d89-c665-4267-b8e6-9c60d65d6b17,2025-10-23T00:00:00,Вторая закупка налички,,RMB Наличка,5000.0,CNY,11.8788,TRANSFER,
+91760858-9720-4d37-95fa-fccf5380e3db,2025-10-22T00:00:00,Пекин платил Илья 334,Entertainment,RMB Наличка,400.0,CNY,11.8788,SPEND,
+59779885-bea2-4ef7-9d38-37ca323cfb04,2025-10-21T00:00:00,Китайская стена,Entertainment,RMB Наличка,200.0,CNY,11.8788,SPEND,
+8507c73c-2c9c-4dd3-9dd8-503e78628d76,2025-10-20T00:00:00,Долг 200 АА,Duty,RMB Наличка,200.0,CNY,11.8788,SPEND,Duty
+00a9c7f9-e5e6-498b-8a8b-8e5e659f2cd5,2025-10-19T00:00:00,Cимка,Communications,RMB Наличка,200.0,CNY,11.8788,SPEND,reimbursement
+3bea875a-cd63-4e4e-b438-3821ee91163f,2025-10-18T00:00:00,"Отдал Джоули, на Alipay",,RMB Наличка,-4000.0,CNY,11.8788,TRANSFER,
+ea9a0613-cac8-4455-9964-78aed3ff2a25,2025-10-17T00:00:00,"Отдал Едачеву, на Alipay",,RMB Наличка,-1000.0,CNY,11.8788,TRANSFER,
+7b5af895-945c-4417-aec4-0c8129af97d9,2025-10-16T00:00:00,Первая закупка налички,,RMB Наличка,6000.0,CNY,11.8788,TRANSFER,
 e4d51065-c741-4eca-806b-2fce0033cc21,2025-11-11T23:59:00,Tricount,Food & Dining,Tricount,258.0,CNY,11.8788,SPEND,import
 c9f8d4b4-62df-4e7d-b288-cf933352a2fc,2025-11-11T23:59:00,Tricount,Entertainment,Tricount,535.0,CNY,11.8788,SPEND,import
 9ec7a4b1-e7ad-4eff-976a-cd6f733c188e,2025-11-11T23:59:00,Tricount,Transportation,Tricount,709.0,CNY,11.8788,SPEND,import

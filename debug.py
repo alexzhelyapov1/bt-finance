@@ -8,6 +8,7 @@ from finance.models.schemas import OperationType
 
 DB_PATH = Path("data/finance.csv")
 NAME='RMB Наличка'
+# NAME='Alipay'
 
 def show_name_statement():
     console = Console()
@@ -31,6 +32,9 @@ def show_name_statement():
         if t.op_type in [OperationType.SPEND, OperationType.LENT]:
             change = -t.amount
             color = "red"
+        # elif t.op_type in [OperationType.TRANSFER]:
+        #     change = t.amount
+        #     color = "gray"
         else:
             change = t.amount
             color = "green"
