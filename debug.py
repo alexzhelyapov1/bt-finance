@@ -7,17 +7,18 @@ from finance.storage.csv_storage import CsvStorage
 from finance.models.schemas import OperationType
 
 DB_PATH = Path("data/finance.csv")
+NAME='RMB Наличка'
 
-def show_alipay_statement():
+def show_name_statement():
     console = Console()
     storage = CsvStorage(DB_PATH)
     
     all_txs = storage.get_all()
-    alipay_txs = [t for t in all_txs if t.place == "Alipay"]
+    name_txs = [t for t in all_txs if t.place == NAME]
     
-    alipay_txs.sort(key=lambda x: x.date)
+    name_txs.sort(key=lambda x: x.date)
 
-    table = Table(title="Выписка по счету Alipay", box=box.SIMPLE)
+    table = Table(title=f"Выписка по счету {NAME}", box=box.SIMPLE)
     table.add_column("Дата", style="cyan", no_wrap=True)
     table.add_column("Название", style="white")
     table.add_column("Категория", style="blue")
@@ -26,7 +27,7 @@ def show_alipay_statement():
 
     running_balance = 0.0
 
-    for t in alipay_txs:
+    for t in name_txs:
         if t.op_type in [OperationType.SPEND, OperationType.LENT]:
             change = -t.amount
             color = "red"
@@ -49,8 +50,8 @@ def show_alipay_statement():
         )
 
     console.print(table)
-    currency = alipay_txs[0].currency.value if alipay_txs else ""
+    currency = name_txs[0].currency.value if name_txs else ""
     console.print(f"\n[bold]Текущий остаток:[/bold] [yellow]{running_balance:,.2f} {currency}[/yellow]")
 
 if __name__ == "__main__":
-    show_alipay_statement()
+    show_name_statement()
