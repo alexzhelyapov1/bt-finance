@@ -8,8 +8,8 @@ from finance.storage.csv_storage import CsvStorage
 from finance.models.schemas import Currency, OperationType
 
 # Настройки
-# SOURCE_FILES = ['tricount.csv']
-SOURCE_FILES = ['alipay-expenditure.csv', 'alipay-income.csv']
+SOURCE_FILES = ['tricount.csv']
+# SOURCE_FILES = ['alipay-expenditure.csv', 'alipay-income.csv']
 DB_PATH = Path("data/finance.csv")
 CNY_RATE = 11.8788
 
@@ -57,7 +57,7 @@ def import_data():
                     # Теперь мы можем передать дату 'date=dt'
                     service.add_transaction(
                         title=row['English Translation'],
-                        place="Alipay",
+                        place="Tricount",
                         amount=amount,
                         currency=Currency.CNY,
                         op_type=OperationType.SPEND,
