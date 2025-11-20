@@ -30,19 +30,14 @@ def show_name_statement():
 
     for t in name_txs:
         if t.op_type in [OperationType.SPEND, OperationType.LENT]:
-            change = -t.amount
             color = "red"
-        # elif t.op_type in [OperationType.TRANSFER]:
-        #     change = t.amount
-        #     color = "gray"
         else:
-            change = t.amount
             color = "green"
 
-        running_balance += change
-        
+        running_balance += t.amount
+
         date_str = t.date.strftime("%Y-%m-%d %H:%M")
-        change_str = f"[{color}]{change:+.2f}[/{color}]"
+        change_str = f"[{color}]{t.amount:+.2f}[/{color}]"
         balance_str = f"{running_balance:,.2f}"
 
         table.add_row(

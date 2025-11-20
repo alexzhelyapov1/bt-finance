@@ -49,13 +49,7 @@ class FinanceService:
         currency_balances = {c.value: 0.0 for c in Currency}
 
         for t in transactions:
-            sign = 0
-            if t.op_type in [OperationType.INCOME, OperationType.RETURNED]:
-                sign = 1
-            elif t.op_type in [OperationType.SPEND, OperationType.LENT]:
-                sign = -1
-            
-            val = t.amount * sign
+            val = t.amount
             currency_balances[t.currency.value] += val
             total_rub += val * t.rate
             

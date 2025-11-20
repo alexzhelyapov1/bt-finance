@@ -18,7 +18,7 @@ def show_account_summary():
 
     for t in transactions:
         place = t.place
-        
+
         # 1. Проверка валюты счета
         if accounts[place]["currency"] is None:
             accounts[place]["currency"] = t.currency
@@ -27,31 +27,8 @@ def show_account_summary():
             console.print(f"{t.title}")
             return
 
-        # 2. Определение знака операции
-        # SPEND (Трата) и LENT (В долг) всегда уменьшают баланс
-        if t.op_type in [OperationType.SPEND, OperationType.LENT]:
-            sign = -1
-        # INCOME (Приход) и RETURNED (Возврат) увеличивают
-        elif t.op_type in [OperationType.INCOME, OperationType.RETURNED]:
-            sign = 1
-        # TRANSFER (Перевод) - зависит от того, как записано в базе.
-        # Обычно это входящий поток (+), но если пользователь записал сумму с минусом, будет минус.
-        else:
-            sign = 1
-
-        # 3. Расчет
-        # amount всегда положительный в модели, если не задан явно минус при импорте, 
-        # поэтому умножаем на sign.
-        # Однако, если в CSV уже лежит отрицательное число в amount (как на скрине), 
-        # то логика может инвертироваться. 
-        # Считаем так: Баланс += (Сумма из базы * Знак типа операции)
-        
         amount = t.amount
-        
-        # Корректировка для трат: если в базе сумма > 0, делаем её отрицательной
-        if sign == -1 and amount > 0:
-            amount = -amount
-            
+
         accounts[place]["native"] += amount
         accounts[place]["rub"] += amount * t.rate
 
