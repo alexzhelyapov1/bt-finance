@@ -1,0 +1,54 @@
+from typing import List, Dict
+from datetime import datetime
+
+from finance.models.schemas import Transaction, Currency, OperationType
+from finance.storage.base import IStorage
+
+class FinanceService:
+    def __init__(self, storage: IStorage):
+        self.storage = storage
+
+    def add_transaction(self, title: str, place: str, amount: float, 
+                        currency: Currency, op_type: OperationType, 
+                        category: str = None, rate: float = 1.0, 
+                        tags: List[str] = None) -> Transaction:
+        
+        if currency == Currency.RUB:
+            rate = 1.0
+        
+        transaction = Transaction(
+            title=title,
+            place=place,
+            amount=amount,
+            currency=currency,
+            op_type=op_type,
+            category=category,
+            rate=rate,
+            tags=tags or []
+        )
+        self.storage.append(transaction)
+        return transaction
+
+    def get_history(self) -> List[Transaction]:
+        return sorted(self.storage.get_all(), key=lambda x: x.date, reverse=True)
+
+    def calculate_balance(self) -> Dict[str, float]:
+        transactions = self.storage.get_all()
+        total_rub = 0.0
+        currency_balances = {c.value: 0.0 for c in Currency}
+
+        for t in transactions:
+            sign = 0
+            if t.op_type in [OperationType.INCOME, OperationType.RETURNED]:
+                sign = 1
+            elif t.op_type in [OperationType.SPEND, OperationType.LENT]:
+                sign = -1
+            
+            val = t.amount * sign
+            currency_balances[t.currency.value] += val
+            total_rub += val * t.rate
+            
+        return {
+            "total_rub_eq": total_rub,
+            "currencies": currency_balances
+        }

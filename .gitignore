@@ -1,0 +1,23 @@
+venv
+# Virtual Environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Test artifacts
+.pytest_cache/
+.coverage
+
+# IDE files
+.idea/
+.vscode/
+
+# Tmp files
+tmp/
+tmp*
+
+# Local data files (для начала)
+data/
