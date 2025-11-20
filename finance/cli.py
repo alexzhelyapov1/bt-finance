@@ -1,4 +1,5 @@
 import typer
+from datetime import datetime
 from typing import List, Optional
 from rich.console import Console
 from rich.table import Table
@@ -24,16 +25,20 @@ def add_transaction(
     currency: Currency = typer.Option(Currency.RUB, "--currency", "-c", help="Валюта"),
     rate: float = typer.Option(1.0, "--rate", "-r", help="Курс к рублю"),
     category: Optional[str] = typer.Option(None, "--cat", help="Категория (для трат)"),
-    tags: Optional[str] = typer.Option(None, "--tags", help="Теги через запятую")
+    tags: Optional[str] = typer.Option(None, "--tags", help="Теги через запятую"),
+    # Добавили опцию даты
+    date: Optional[datetime] = typer.Option(None, "--date", "-d", help="Дата (YYYY-MM-DD HH:MM:SS)")
 ):
     tags_list = [t.strip() for t in tags.split(",")] if tags else []
-    
+
     try:
+        # Передаем date в сервис
         t = ctx.service.add_transaction(
             title=title, place=place, amount=amount, currency=currency,
-            op_type=op_type, category=category, rate=rate, tags=tags_list
+            op_type=op_type, category=category, rate=rate, tags=tags_list,
+            date=date
         )
-        console.print(f"[bold green]Запись добавлена:[/bold green] {t.title} ({t.amount} {t.currency.value})")
+        console.print(f"[bold green]Запись добавлена:[/bold green] {t.title} ({t.amount} {t.currency.value}) от {t.date}")
     except ValueError as e:
         console.print(f"[bold red]Ошибка:[/bold red] {e}")
 

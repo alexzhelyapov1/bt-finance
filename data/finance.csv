@@ -1,0 +1,111 @@
+id,date,title,category,place,amount,currency,rate,op_type,tags
+6f76e874-357d-4e8c-9fdd-d0878ecba21f,2025-11-11T22:50:14,Hui Tea (Haikou Longhua Xinhua North Store),Food & Dining,Alipay,15.0,CNY,11.8788,SPEND,import
+87ad328e-ca0d-4141-a83b-1ac7c0a05734,2025-11-11T22:15:47,Ride-hailing,Transportation,Alipay,14.62,CNY,11.8788,SPEND,import
+46ced9c5-12ce-4d2e-b368-41793ab50940,2025-11-11T21:41:28,MINISO Hainan Haikou Xiuying Enxiang Life Square...,Souvenirs,Alipay,70.7,CNY,11.8788,SPEND,import
+25527a35-57dd-41da-9fba-d76b8678df48,2025-11-11T20:01:24,McDonald's,Food & Dining,Alipay,34.9,CNY,11.8788,SPEND,import
+e7b6ce13-e172-4ab4-892b-fcdf3c4471b8,2025-11-11T18:39:18,Holiday Beach,Entertainment,Alipay,6.0,CNY,11.8788,SPEND,import
+359e1e9a-d890-46d7-802d-5b4297485bba,2025-11-11T16:30:38,Holiday Beach,Entertainment,Alipay,14.0,CNY,11.8788,SPEND,import
+6300ef6c-f262-4208-b062-570dcdb28be3,2025-11-11T12:56:12,Haikou Meilan International Airport (T2 Domestic Luggage Storage),Travel,Alipay,78.0,CNY,11.8788,SPEND,import
+d840d4e9-acb8-4e1a-8a2b-a9da80b8e11a,2025-11-11T06:44:14,Special Express Car-Master Ji-November 11th Trip,Transportation,Alipay,67.7,CNY,11.8788,SPEND,import
+199b856e-7e64-4076-aed4-2346a3ee6952,2025-11-09T23:37:36,Didi Express Car-Master Yang-November 09th Trip,Transportation,Alipay,16.0,CNY,11.8788,SPEND,import
+19ad56a3-c83c-4748-a80d-4c644d16ea3c,2025-11-09T21:58:55,Shanghai Bus-Ferry Yangfu Line-2025-11-09 19...,Transportation,Alipay,2.0,CNY,11.8788,SPEND,import
+b3894905-4259-40f0-883c-949548b7e91c,2025-11-09T21:53:04,"Shanghai Niaowan Tong Trading Co., Ltd.",Souvenirs,Alipay,38.94,CNY,11.8788,SPEND,import
+06804549-099c-412c-b68d-aeba43c7a77a,2025-11-09T21:31:58,SUNRISEPOP Bailian ZX Creative Fun Place Flagship Store...,Souvenirs,Alipay,89.0,CNY,11.8788,SPEND,import
+09f4048a-d923-40fd-9f5f-41b4d4c41e31,2025-11-09T18:37:59,New World Department Store Group Shanghai Huiya Department Store Co....,Food & Dining,Alipay,27.0,CNY,11.8788,SPEND,import
+95b198f8-02b8-4218-91d0-58fd2beff4a0,2025-11-09T16:34:58,Shanghai Mixue Ice Cream & Tea Drink Shop,Food & Dining,Alipay,8.0,CNY,11.8788,SPEND,import
+72ed20cb-1498-4ab4-9767-8d28eb7c7f59,2025-11-09T14:01:51,Dr. CURRY (Century Avenue Store),Food & Dining,Alipay,49.0,CNY,11.8788,SPEND,import
+d69c0ab4-d9b6-4563-9bf5-708b81508487,2025-11-08T22:49:06,Century Hualian Supermarket,Groceries,Alipay,7.0,CNY,11.8788,SPEND,import
+c431f295-25e4-4bcb-a4c6-a6ccb35cc0e3,2025-11-08T22:48:10,Nanjing East Road - Pudong South Road,Transportation,Alipay,3.0,CNY,11.8788,SPEND,import
+dcde036d-37f4-42de-a550-09f6399fc0a1,2025-11-08T22:04:47,Didi Express Car-Master Chen-November 08th Trip,Transportation,Alipay,4.1,CNY,11.8788,SPEND,import
+aaca8165-c551-4484-8295-b26d63409b3d,2025-11-08T21:35:13,Zhongshan East 1st Road No. 2 Store,Groceries,Alipay,25.0,CNY,11.8788,SPEND,import
+c5acbd8f-019a-448e-a229-b065d181a0fe,2025-11-08T21:03:17,Lujiazui - Yu Garden,Transportation,Alipay,3.0,CNY,11.8788,SPEND,import
+bd837d3a-2f69-45e2-83bb-21af6323b677,2025-11-08T19:41:55,Bread Society Century Link Store,Food & Dining,Alipay,33.0,CNY,11.8788,SPEND,import
+9ecd416f-11c9-4974-a4d3-db90bda0bfc6,2025-11-08T18:42:03,Bread Society Century Link Store,Food & Dining,Alipay,35.0,CNY,11.8788,SPEND,import
+17c5f4e2-6d90-4b23-af43-fee4814ce058,2025-11-08T17:27:35,Mixue Ice Cream & Tea 922635 Store,Food & Dining,Alipay,10.0,CNY,11.8788,SPEND,import
+544609c6-89de-4827-bfbb-a33d90203530,2025-11-08T04:20:24,Didi Express Car Pre-paid Fare,Transportation,Alipay,161.5,CNY,11.8788,SPEND,import
+4100b04f-e63b-4122-8095-418ce8e3e0e0,2025-11-08T01:25:46,Dianshan Lake Avenue Store,Groceries,Alipay,45.1,CNY,11.8788,SPEND,import
+9934ea3b-1924-4d1e-a65e-949052ace7a9,2025-11-07T18:21:28,"Shanghai Haopushengda Commercial Management Co., Ltd.",Food & Dining,Alipay,23.0,CNY,11.8788,SPEND,import
+491fdade-7fee-4610-be3d-ddf151a2ecab,2025-11-06T23:45:48,The Captain Bar,Entertainment,Alipay,726.0,CNY,11.8788,SPEND,import
+15f9d00e-1e08-4ecf-9340-8a55fbe73646,2025-11-06T22:34:27,Didi Taxi - Master Mao,Transportation,Alipay,30.0,CNY,11.8788,SPEND,import
+ba05403d-675e-4308-bc6c-da8a5fcd70c6,2025-11-06T18:25:36,"Shanghai Qiahua Catering Co., Ltd.",Food & Dining,Alipay,30.0,CNY,11.8788,SPEND,import
+0ac45855-a167-4de7-af4b-f5c523522133,2025-11-05T18:25:04,"Shanghai Qiahua Catering Co., Ltd.",Food & Dining,Alipay,27.0,CNY,11.8788,SPEND,import
+cee96162-546c-491c-bc70-908c52825d45,2025-11-05T13:31:07,Afternoon,Food & Dining,Alipay,7.2,CNY,11.8788,SPEND,import
+bd3a512f-b728-41fa-ab86-bc17b7f7b800,2025-11-03T13:36:29,Metro-Convention and Exhibition Center-2025-11-03 13:18:32-...,Transportation,Alipay,2.0,CNY,11.8788,SPEND,import
+cf20f96c-79ff-4466-ba0f-36143d44d232,2025-11-03T12:15:13,Galaxy Center Store-Fuhua Road,Food & Dining,Alipay,45.0,CNY,11.8788,SPEND,import
+cb1a98a8-5629-45d4-9a40-f06e1096804b,2025-11-03T12:10:24,Dmall Order: 1246520022511031210...,Food & Dining,Alipay,8.8,CNY,11.8788,SPEND,import
+514de780-8317-4e8c-838b-6ecd7afa3e63,2025-11-03T02:58:45,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,1.5,CNY,11.8788,SPEND,import
+f3fc94cb-b309-4744-a7ca-2c586584def5,2025-11-03T00:27:53,"Mandarin Oriental, Shenzhen",Entertainment,Alipay,149.3,CNY,11.8788,SPEND,import
+8521d076-773a-4338-8011-eb1c55ca8c16,2025-11-02T23:10:30,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,1.5,CNY,11.8788,SPEND,import
+3c2e5ea0-e7a4-472b-ba67-fb29884a9158,2025-11-02T22:59:01,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,3.5,CNY,11.8788,SPEND,import
+1cd6e36d-3feb-4855-8f51-fa7ef10c51b1,2025-11-02T22:21:25,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,3.5,CNY,11.8788,SPEND,import
+0d8b141e-5c0a-4dcd-8288-886dad096e87,2025-11-02T20:20:13,121001_60044_POS,Food & Dining,Alipay,98.0,CNY,11.8788,SPEND,import
+d8b761a1-7a71-4eda-9f68-15770c07e21e,2025-11-02T16:45:11,Hello Bike Fare,Transportation,Alipay,3.0,CNY,11.8788,SPEND,import
+ca014d5e-696d-40b9-90aa-974aa13f0fa7,2025-11-02T16:08:54,Shenzhen Nanshan District Pinshang Restaurant,Food & Dining,Alipay,9.9,CNY,11.8788,SPEND,import
+5ef1f6e3-582a-49a3-b33e-98627cd9ce9b,2025-11-02T16:04:27,Hello Bike Fare,Transportation,Alipay,2.0,CNY,11.8788,SPEND,import
+1978da7f-28a0-485c-b1c2-6dadde2ee6a3,2025-11-02T15:49:02,Hello Bike Fare,Transportation,Alipay,10.0,CNY,11.8788,SPEND,import
+a2a99a8e-fbcf-4178-86d2-92955df50044,2025-11-02T13:16:18,Baking with You,Food & Dining,Alipay,10.0,CNY,11.8788,SPEND,import
+0c25e86a-a1d3-40f2-aadd-9b779a7cd36b,2025-11-02T12:56:40,Baking with You,Food & Dining,Alipay,48.8,CNY,11.8788,SPEND,import
+7866ba64-73d2-46d2-ade5-05552822194e,2025-11-01T08:21:53,Boat Ticket,Travel,Alipay,179.0,CNY,11.8788,SPEND,import
+96169170-a2a9-4db5-b439-f374f2af96d8,2025-11-01T01:41:39,Shanghai MAX Bar,Entertainment,Alipay,158.0,CNY,11.8788,SPEND,import
+5af53617-b329-46e1-b123-db096888b988,2025-11-01T01:26:17,Huaihai Middle Road No. 4 Store,Food & Dining,Alipay,19.5,CNY,11.8788,SPEND,import
+9e0793f8-f34f-4f66-983b-24998cce339c,2025-11-01T00:29:10,7-ELEVEN Shanghai Jingting Consumption,Groceries,Alipay,19.8,CNY,11.8788,SPEND,import
+8d04ddbb-d6eb-4ec2-a0b6-f7c43b511b2b,2025-10-31T18:41:04,KFC (Xicen Lianqiu Lake Huawei Store),Food & Dining,Alipay,6.0,CNY,11.8788,SPEND,import
+bcd33cc0-81d8-4407-a0f5-da2b04659117,2025-10-30T18:32:11,"Shanghai Kuwei Catering Management Co., Ltd.",Food & Dining,Alipay,4.0,CNY,11.8788,SPEND,import
+65494c7e-9eb8-44d7-8d91-0c9f1df01a5a,2025-10-30T18:18:06,"Mengziyuan (Guangdong) Catering Group Co., Ltd.",Food & Dining,Alipay,26.5,CNY,11.8788,SPEND,import
+2c6e02f1-4529-4cdd-812b-a137de67fc3e,2025-10-29T19:45:24,KFC (Xicen Lianqiu Lake Huawei Store),Food & Dining,Alipay,6.0,CNY,11.8788,SPEND,import
+7448b102-d381-4834-a4a2-7182b98a740a,2025-10-29T19:05:13,KFC (Xicen Lianqiu Lake Huawei Store),Food & Dining,Alipay,34.9,CNY,11.8788,SPEND,import
+fc7a3257-2cc0-4450-9179-233c210976a2,2025-10-29T14:24:48,"Shanghai Tangwen Catering Management Co., Ltd.",Food & Dining,Alipay,3.0,CNY,11.8788,SPEND,import
+dfb67166-079f-4826-be88-ebfd07931613,2025-10-28T23:21:58,Mixue Ice Cream & Tea 936674 Store,Food & Dining,Alipay,9.9,CNY,11.8788,SPEND,import
+b69cf287-17da-47e2-995c-f018cc3a85e7,2025-10-28T18:26:38,"Lao Xiang Ji (Shanghai) Catering Co., Ltd.",Food & Dining,Alipay,17.5,CNY,11.8788,SPEND,import
+633f83bb-962a-426d-aefd-862703b1b6b8,2025-10-28T15:35:27,Alipay payment for Huawei Lianqiu Lake No. 2 store consumption,Food & Dining,Alipay,9.9,CNY,11.8788,SPEND,import
+8d5a6cd1-e70e-4099-8ab6-93ce8aa7f83a,2025-10-27T18:19:43,Yang's Dumpling Enterprise Management Development (Shanghai) Co....,Food & Dining,Alipay,15.0,CNY,11.8788,SPEND,import
+faeffa0e-404a-46cd-be28-7e6af18312b2,2025-10-27T09:46:39,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,1.5,CNY,11.8788,SPEND,import
+0ab2336c-56e8-4111-8a31-cff5aa648292,2025-10-26T23:39:20,Didi Express Car Pre-paid Fare,Transportation,Alipay,24.8,CNY,11.8788,SPEND,import
+9f46299d-f11b-4f5e-85ca-e08ca1575d69,2025-10-26T20:32:49,120912_50247_POS,Food & Dining,Alipay,98.0,CNY,11.8788,SPEND,import
+1e153522-b3b7-4300-98a0-54c041cd40c1,2025-10-26T19:22:31,CHAGEE,Food & Dining,Alipay,16.0,CNY,11.8788,SPEND,import
+87bcdcc7-a8b6-44ce-b9b3-480ce9a62238,2025-10-26T13:58:45,Hangzhou West Lake Scenic Area Xiaofeng Drink Shop,Food & Dining,Alipay,11.0,CNY,11.8788,SPEND,import
+5e0eba71-023c-4c41-981c-d311dad4c8de,2025-10-26T13:20:06,Hello Bike Fare,Transportation,Alipay,1.8,CNY,11.8788,SPEND,import
+c2e24d9b-30e7-49db-91ae-a7f7fde2404a,2025-10-26T12:51:59,Metro-Dongyang-12:51:53-Normal trip fare deduction,Transportation,Alipay,5.0,CNY,11.8788,SPEND,import
+607d0d76-065d-4071-8a24-aeee382b742a,2025-10-26T10:05:45,Ledoujia Convenience Store,Groceries,Alipay,9.9,CNY,11.8788,SPEND,import
+7169b3ce-2f35-4cd1-974c-7ccf06ca1c6a,2025-10-25T20:24:38,Shangrao City Jiuniu Grand Canyon Tourist Attraction Comprehensive...,Entertainment,Alipay,13.0,CNY,11.8788,SPEND,import
+a5ef68b0-db22-4abd-a349-10238ecb31e1,2025-10-25T19:59:10,Qing Bu Liang,Food & Dining,Alipay,4.0,CNY,11.8788,SPEND,import
+11b17211-c897-4fd8-875e-8690767e64db,2025-10-25T19:58:27,Qing Bu Liang,Food & Dining,Alipay,20.0,CNY,11.8788,SPEND,import
+5c43297e-cca6-475a-a43f-cf738b9bd975,2025-10-25T19:31:24,Lanzhou Ramen,Food & Dining,Alipay,35.0,CNY,11.8788,SPEND,import
+893c9faa-ad2b-4781-8cd8-b11110e8c9f3,2025-10-25T18:16:47,Vagoo Scenic Area,Entertainment,Alipay,140.0,CNY,11.8788,SPEND,import
+d616f709-5786-45e8-be03-952b843ce905,2025-10-25T17:53:55,Scan QR code to pay - to He Zimao,Transportation,Alipay,130.0,CNY,11.8788,SPEND,import
+52a00971-1f4b-48ce-b6d8-d173f2db5874,2025-10-25T12:24:05,Longhu Hongqiao Tianjie Store--Shenchang Road,Food & Dining,Alipay,62.0,CNY,11.8788,SPEND,import
+a5b1531d-3056-4bc6-9fb9-965159c211e8,2025-10-25T02:07:25,New Electric Hero (Shanghai) Culture Communication Co....,Entertainment,Alipay,288.0,CNY,11.8788,SPEND,import
+5a0cb8f9-48fa-400a-8ed7-6a0555427d73,2025-10-25T00:19:33,Hello Bike - Coupon,Transportation,Alipay,16.8,CNY,11.8788,SPEND,import
+5147bd33-b461-437d-b93c-c735b155e826,2025-10-24T23:37:56,Zhongshan East 1st Road No. 2 Store,Groceries,Alipay,51.2,CNY,11.8788,SPEND,import
+b171dee6-90e0-4de5-a93c-60326cbe4c79,2025-10-24T18:48:49,Shanghai-Lianqiu Lake Area C-C5-1F-Food Republic-Z07...,Food & Dining,Alipay,29.0,CNY,11.8788,SPEND,import
+50fc8fe6-6cc0-484f-bc04-179fdfbdafac,2025-10-23T18:28:07,Shanghai-Lianqiu Lake Area C-C5-1F-Food Republic-Z07...,Food & Dining,Alipay,23.0,CNY,11.8788,SPEND,import
+3c40b0ce-1f24-4c88-b0e5-aa733a84b9c2,2025-10-22T19:55:54,7-ELEVEN Shanghai Huawei Lianqiu Lake Area D Consumption,Groceries,Alipay,11.5,CNY,11.8788,SPEND,import
+c9832f2e-6b9c-48d3-8761-80ee3d37d661,2025-10-22T19:54:20,7-ELEVEN Shanghai Huawei Lianqiu Lake Area D Consumption,Groceries,Alipay,28.4,CNY,11.8788,SPEND,import
+aee920f4-b99a-4ea4-a448-5dc822f1ac96,2025-10-22T18:27:24,"Shanghai Zhongteng Food Technology Co., Ltd.",Food & Dining,Alipay,10.0,CNY,11.8788,SPEND,import
+cf0a3b38-554c-4b4d-8756-6a4377930d13,2025-10-22T00:48:04,Hello Bike Fare,Transportation,Alipay,5.5,CNY,11.8788,SPEND,import
+7fdc2904-6765-47a7-97ee-4ecb44420ec8,2025-10-22T00:31:22,Shanghai FamilyMart,Groceries,Alipay,8.8,CNY,11.8788,SPEND,import
+a8051595-dbea-4d46-9e43-7dede5932f6e,2025-10-21T18:46:53,"Youfeng Catering Management (Shanghai) Co., Ltd.",Food & Dining,Alipay,21.0,CNY,11.8788,SPEND,import
+06686532-dfc2-4a81-82f5-29cf404dab56,2025-10-20T18:33:01,"Shanghai Gurun Wanguan Catering Management Co., Ltd.",Food & Dining,Alipay,10.5,CNY,11.8788,SPEND,import
+88c177f8-bee6-41ed-b5da-4af09eedc29c,2025-10-20T12:39:16,"Shanghai Yuezhen Xiaochu Catering Management Co., Ltd.",Food & Dining,Alipay,19.0,CNY,11.8788,SPEND,import
+39ecd29f-6468-413f-addf-e5ec1360336a,2025-10-20T10:46:20,Hello Bike Fare,Transportation,Alipay,1.5,CNY,11.8788,SPEND,import
+af202596-72eb-457b-b7ab-ad4c926968a0,2025-10-19T23:00:06,Shanghai Bus-Ferry Taigong Line-2025-10-19 21...,Transportation,Alipay,2.0,CNY,11.8788,SPEND,import
+53764350-d71f-462a-9b04-7575ca57fe0d,2025-10-19T22:25:04,Zhongshan East 1st Road No. 2 Store,Groceries,Alipay,25.0,CNY,11.8788,SPEND,import
+731bb2f8-957a-4f5c-8c93-717f9e15a486,2025-10-19T21:58:33,Hello Bike Fare,Transportation,Alipay,1.5,CNY,11.8788,SPEND,import
+0be3c946-4c6f-4978-bd59-f38fb9384958,2025-10-19T19:57:18,Global Financial Center No. 2 Store,Food & Dining,Alipay,25.4,CNY,11.8788,SPEND,import
+1bb7416b-e801-49ee-9ef4-6efa0e8da876,2025-10-19T19:42:48,Hello Bike Fare,Transportation,Alipay,1.5,CNY,11.8788,SPEND,import
+7a3d8129-e82b-4a57-8c1d-11c973fa0c3b,2025-10-19T19:26:33,Hello Bike Fare,Transportation,Alipay,1.5,CNY,11.8788,SPEND,import
+c82e309b-6cc5-481c-aed9-1b1da8f06027,2025-10-19T19:21:39,Discount Coupon Order Payment,Food & Dining,Alipay,14.99,CNY,11.8788,SPEND,import
+3f61f0b1-f4ca-4076-9ccf-3a7aa1edb02e,2025-10-19T19:19:51,Houtan - Shangcheng Road,Transportation,Alipay,4.0,CNY,11.8788,SPEND,import
+85100a02-572a-4e22-8b3c-279e04a1526d,2025-10-19T16:18:25,Longhua - Houtan,Transportation,Alipay,3.0,CNY,11.8788,SPEND,import
+6693c577-e4a5-4735-a901-3a85756426f4,2025-10-19T15:24:28,"Shanghai Golden Arches Food Co., Ltd. (McDonald's)",Food & Dining,Alipay,14.0,CNY,11.8788,SPEND,import
+157606e5-6f4f-4b87-87b2-110009bae430,2025-10-19T15:12:33,"Shanghai Golden Arches Food Co., Ltd. (McDonald's)",Food & Dining,Alipay,40.5,CNY,11.8788,SPEND,import
+e6d8b8d0-8396-4d04-8f07-80d141c7f95e,2025-10-19T14:22:36,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,2.99,CNY,11.8788,SPEND,import
+bae97df1-d3a0-4f5b-a3d3-67c64ebab3a0,2025-10-19T13:44:39,Meituan Order - Riding Package,Transportation,Alipay,0.1,CNY,11.8788,SPEND,import
+717359db-a140-489a-bdd6-e434cb114a28,2025-10-19T13:26:34,Zhujiajiao - Jiaotong University,Transportation,Alipay,7.0,CNY,11.8788,SPEND,import
+020e18ef-0b88-4bab-8288-1a8c0f6f1239,2025-10-19T12:12:17,June Lotus Napkin,Groceries,Alipay,2.0,CNY,11.8788,SPEND,import
+56c32e25-bd77-437f-bbb8-f15fb9556ff4,2025-10-18T23:08:38,Liao Hehui Grocery Store,Groceries,Alipay,25.6,CNY,11.8788,SPEND,import
+47bf541a-218a-43c7-8aff-914e7ebff0fb,2025-10-18T22:24:28,Liao Hehui Grocery Store,Groceries,Alipay,3.0,CNY,11.8788,SPEND,import
+518a6b04-8f0d-45af-823f-a7bcd5a7c6f0,2025-10-18T12:47:06,"Shanghai Wanhui Catering Management Co., Ltd.",Food & Dining,Alipay,26.0,CNY,11.8788,SPEND,import
+67724d7a-025a-4c7f-9a3a-0e4dc65d7172,2025-10-18T00:03:50,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,2.09,CNY,11.8788,SPEND,import
+44cd93a6-57f3-44a6-a083-98a65c055afa,2025-10-17T23:43:07,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,0.5,CNY,11.8788,SPEND,import
+92c77640-4d6c-4721-ae04-5fdd6672f128,2025-10-17T23:29:37,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,4.0,CNY,11.8788,SPEND,import

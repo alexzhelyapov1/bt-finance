@@ -1,4 +1,4 @@
-from typing import List, Dict
+from typing import List, Dict, Optional  # Добавили Optional
 from datetime import datetime
 
 from finance.models.schemas import Transaction, Currency, OperationType
@@ -8,24 +8,35 @@ class FinanceService:
     def __init__(self, storage: IStorage):
         self.storage = storage
 
+    # Добавили аргумент date: Optional[datetime] = None
     def add_transaction(self, title: str, place: str, amount: float, 
                         currency: Currency, op_type: OperationType, 
                         category: str = None, rate: float = 1.0, 
-                        tags: List[str] = None) -> Transaction:
+                        tags: List[str] = None, date: Optional[datetime] = None) -> Transaction:
         
         if currency == Currency.RUB:
             rate = 1.0
         
-        transaction = Transaction(
-            title=title,
-            place=place,
-            amount=amount,
-            currency=currency,
-            op_type=op_type,
-            category=category,
-            rate=rate,
-            tags=tags or []
-        )
+        # Если date не передан, Pydantic сам вызовет default_factory=datetime.now
+        # Но нам нужно передать его в конструктор, если он есть.
+        
+        # Формируем аргументы для создания
+        tx_data = {
+            "title": title,
+            "place": place,
+            "amount": amount,
+            "currency": currency,
+            "op_type": op_type,
+            "category": category,
+            "rate": rate,
+            "tags": tags or []
+        }
+        
+        # Если дата передана явно, добавляем её
+        if date:
+            tx_data["date"] = date
+
+        transaction = Transaction(**tx_data)
         self.storage.append(transaction)
         return transaction
 

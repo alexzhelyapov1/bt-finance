@@ -20,4 +20,4 @@ tmp/
 tmp*
 
 # Local data files (для начала)
-data/
+# data/
