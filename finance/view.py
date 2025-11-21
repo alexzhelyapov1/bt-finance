@@ -2,7 +2,7 @@ from rich.console import Console
 from rich.table import Table
 from rich import box
 from collections import defaultdict
-from .models import OperationType
+from .models import OperationType, Currency
 
 console = Console()
 
@@ -12,6 +12,7 @@ def render_table(transactions, title="Транзакции"):
     table.add_column("Тип", style="dim")
     table.add_column("Название", style="white")
     table.add_column("Сумма", justify="right")
+    table.add_column("Сумма (р)", justify="right")
     table.add_column("Место", style="blue")
     table.add_column("Кат.", style="yellow")
     
@@ -22,6 +23,7 @@ def render_table(transactions, title="Транзакции"):
             t.op_type.name[:3],
             t.title,
             f"[{color}]{t.amount:+.2f} {t.currency.value}[/{color}]",
+            f"[{color}]{t.amount * t.rate:+.2f} {Currency.RUB}[/{color}]",
             t.place,
             t.category or ""
         )

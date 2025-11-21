@@ -127,12 +127,12 @@ c9788baf-1f6d-4517-9aa1-5aafa4cfca66,2025-10-18T10:57:47,Payment Received-AEdach
 3e5032de-d73a-42f5-ae97-5b28d3c54a8e,2025-10-17T23:43:07,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,-0.5,CNY,11.8788,SPEND,import,
 2f1b2225-1361-4257-b7e3-94f27a7c2c8b,2025-10-17T23:29:37,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,-4.0,CNY,11.8788,SPEND,import,
 8b81634f-78af-4746-9589-6c761df20c78,2025-10-17T22:32:30,Payment Received-ILIA,,Alipay,50.0,CNY,11.8788,INCOME,import,
-e36d4081-9801-46c4-86a3-d2756106592f,2025-10-28T00:00:00,Докупил HKD (200 RMB),,RMB Наличка,200.0,CNY,11.8788,UNKNOWN_TRANSFER,,
+e36d4081-9801-46c4-86a3-d2756106592f,2025-11-04T00:00:00,Докупил HKD (200 RMB),,RMB Наличка,200.0,CNY,11.8788,UNKNOWN_TRANSFER,,9054f184-4477-4aa6-a442-0bacda4bad1f
 ef41b559-24b8-424c-999b-7becd33b8898,2025-10-27T00:00:00,Отдал 1000 АА для перевода на алипей,,RMB Наличка,-1000.0,CNY,11.8788,UNKNOWN_TRANSFER,,
 9ae209e8-c0f4-485c-bbeb-7e9085189564,2025-10-26T00:00:00,Отдал 1000 АА (долг),Duty,RMB Наличка,-1000.0,CNY,11.8788,SPEND,Duty,
 2bc5d4cb-2667-4ba0-8824-fad3f7cc11a6,2025-10-25T00:00:00,Купил MOP (500 RMB),,RMB Наличка,-500.0,CNY,11.8788,UNKNOWN_TRANSFER,,
 bb28a66f-87da-421c-a305-ae4e11ddbafd,2025-10-24T00:00:00,Uniqlo,Shopping,RMB Наличка,-160.0,CNY,11.8788,SPEND,,
-0e592d89-c665-4267-b8e6-9c60d65d6b17,2025-10-23T00:00:00,Вторая закупка налички,,RMB Наличка,5000.0,CNY,11.8788,UNKNOWN_TRANSFER,,
+0e592d89-c665-4267-b8e6-9c60d65d6b17,2025-10-23T00:00:00,Вторая закупка налички,,RMB Наличка,5000.0,CNY,12.0014,UNKNOWN_TRANSFER,,
 91760858-9720-4d37-95fa-fccf5380e3db,2025-10-22T00:00:00,Пекин платил Илья 334,Entertainment,RMB Наличка,-400.0,CNY,11.8788,SPEND,,
 59779885-bea2-4ef7-9d38-37ca323cfb04,2025-10-21T00:00:00,Китайская стена,Entertainment,RMB Наличка,-200.0,CNY,11.8788,SPEND,,
 8507c73c-2c9c-4dd3-9dd8-503e78628d76,2025-10-20T00:00:00,Долг 200 АА,Duty,RMB Наличка,-200.0,CNY,11.8788,SPEND,Duty,
@@ -149,7 +149,7 @@ be7053dd-aa18-49f4-ad74-e6a3912397ce,2025-10-09T00:00:00,Покупка 1 бил
 5017ea13-852e-4a9c-a728-805607d4f43a,2025-10-09T00:00:00,Перевод на покупку 1 билета со сбера,,Альфа,150000.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ 2025,
 a1dbeda1-c861-4bbf-9f96-cc644a65e650,2025-10-15T00:00:00,Покупка 4000 ¥ (курс 11.7),,Наличка,46800.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ-Отдых,
 5cd34d1d-603a-4212-a370-ee6a395cd72e,2025-10-14T00:00:00,Покупка 2000 ¥ (курс 11.93),,Наличка,23860.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ-Отдых,
-1ac4f5c9-7efe-43e2-bd00-b54366a3844c,2025-11-04T00:00:00,Покупка 200 HKD,,РСХБ,2381.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ-Отдых,
+1ac4f5c9-7efe-43e2-bd00-b54366a3844c,2025-11-04T00:00:00,Покупка 200 HKD,,РСХБ,2381.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ-Отдых,9054f184-4477-4aa6-a442-0bacda4bad1f
 8a53e358-3590-4a48-ab92-0d0cf2ecb3da,2025-11-01T00:00:00,Покупка-снятие 5000 ¥,,РСХБ,60007.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ-Отдых,
 fc4661b5-73b9-4cc5-937a-9ac912314ded,2025-10-09T00:00:00,Покупка отеля Intercontinental,Hotels,РСХБ,-40246.08,RUB,1.0,SPEND,Notion|БТ 2025,
 02ae7415-d11f-459a-9a43-c8af565a3309,2025-10-09T00:00:00,1 отель (3150 RMB),Hotels,РСХБ,-37730.7,RUB,1.0,SPEND,Notion|БТ 2025,
