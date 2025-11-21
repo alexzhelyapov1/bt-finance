@@ -21,6 +21,7 @@ class Transaction(BaseModel):
     rate: float = 1.0
     op_type: OperationType
     tags: List[str] = Field(default_factory=list)
+    link_id: Optional[uuid.UUID] = None
 
     @model_validator(mode='after')
     def validate_logic(self):
@@ -28,4 +29,5 @@ class Transaction(BaseModel):
             raise ValueError("Category required for SPEND")
         if self.op_type != OperationType.SPEND and self.category:
             self.category = None
+        # Валидация перевода: link_id желателен, но не обязателен (чтобы не ломать старые записи сразу)
         return self
