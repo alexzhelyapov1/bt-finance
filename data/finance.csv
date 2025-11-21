@@ -19,7 +19,7 @@ d2247af4-1040-47a7-8de2-e2a3307f836c,2025-11-10T08:56:38,Payment Received-OZEROV
 e64c15b2-5d46-48b0-81d1-9dedce909f4b,2025-11-09T18:37:59,New World Department Store Group Shanghai Huiya Department Store Co....,Food & Dining,Alipay,-27.0,CNY,11.8788,SPEND,import,
 ed97193e-751f-444f-be71-3bc7856d42d4,2025-11-09T16:34:58,Shanghai Mixue Ice Cream & Tea Drink Shop,Food & Dining,Alipay,-8.0,CNY,11.8788,SPEND,import,
 06b3cd86-577f-4ef2-b284-e91c6da8b50f,2025-11-09T14:01:51,Dr. CURRY (Century Avenue Store),Food & Dining,Alipay,-49.0,CNY,11.8788,SPEND,import,
-152adbc7-0570-4e4c-ba9d-84ae9480abc3,2025-11-09T13:36:20,Transfer-alexakmaev,,Alipay,1000.0,CNY,11.8788,INCOME,import,
+152adbc7-0570-4e4c-ba9d-84ae9480abc3,2025-11-09T13:36:20,Transfer-alexakmaev,,Alipay,1000.0,CNY,11.8788,UNKNOWN_TRANSFER,import,1e74ce73-961a-479f-a8aa-e07122ccb91f
 29a89c77-1578-4db1-bfdf-a81883f64466,2025-11-08T22:49:06,Century Hualian Supermarket,Groceries,Alipay,-7.0,CNY,11.8788,SPEND,import,
 db37b688-b3ce-4cc1-a629-b6d78a5fce69,2025-11-08T22:48:10,Nanjing East Road - Pudong South Road,Transportation,Alipay,-3.0,CNY,11.8788,SPEND,import,
 4585cd09-ae23-452f-afa5-a5cea1840a2c,2025-11-08T22:04:47,Didi Express Car-Master Chen-November 08th Trip,Transportation,Alipay,-4.1,CNY,11.8788,SPEND,import,
@@ -92,7 +92,7 @@ bd1fb71b-1d28-4f92-9cd5-b8b5c1c502bc,2025-10-25T18:16:47,Vagoo Scenic Area,Enter
 2fac0f53-6f88-412a-b684-76d52d6844d4,2025-10-25T00:19:33,Hello Bike - Coupon,Transportation,Alipay,-16.8,CNY,11.8788,SPEND,import,
 ac1bcacf-5ae3-43e2-967d-201cb938f8ab,2025-10-24T23:37:56,Zhongshan East 1st Road No. 2 Store,Groceries,Alipay,-51.2,CNY,11.8788,SPEND,import,
 34889f71-65cc-4aab-ab0c-106a421afad2,2025-10-24T18:48:49,Shanghai-Lianqiu Lake Area C-C5-1F-Food Republic-Z07...,Food & Dining,Alipay,-29.0,CNY,11.8788,SPEND,import,
-cac6e304-1572-4cfb-a8ed-fcda9990b215,2025-10-23T22:24:54,Transfer - Zhuo Li,,Alipay,4000.0,CNY,11.8788,INCOME,import,
+cac6e304-1572-4cfb-a8ed-fcda9990b215,2025-10-23T22:24:54,Transfer - Zhuo Li,,Alipay,4000.0,CNY,11.8788,UNKNOWN_TRANSFER,import,01e3b1fb-bd9b-4400-9a17-508e28ff86ee
 9f3b3862-9e4d-4d21-8f75-63e52d4eab77,2025-10-23T18:28:07,Shanghai-Lianqiu Lake Area C-C5-1F-Food Republic-Z07...,Food & Dining,Alipay,-23.0,CNY,11.8788,SPEND,import,
 5fd2707f-6ef8-4c24-81de-ff4690d93187,2025-10-22T19:55:54,7-ELEVEN Shanghai Huawei Lianqiu Lake Area D Consumption,Groceries,Alipay,-11.5,CNY,11.8788,SPEND,import,
 6d4c2496-3af5-4f15-af35-d05ea6f19299,2025-10-22T19:54:20,7-ELEVEN Shanghai Huawei Lianqiu Lake Area D Consumption,Groceries,Alipay,-28.4,CNY,11.8788,SPEND,import,
@@ -122,35 +122,33 @@ d2c7311f-8e70-40c7-85ff-616402214754,2025-10-18T23:08:38,Liao Hehui Grocery Stor
 078c7d9f-5dd3-448b-bc65-4885b0203b20,2025-10-18T22:24:28,Liao Hehui Grocery Store,Groceries,Alipay,-3.0,CNY,11.8788,SPEND,import,
 aed7146a-d15a-4366-b1a7-a9bb88eacd9a,2025-10-18T12:47:06,"Shanghai Wanhui Catering Management Co., Ltd.",Food & Dining,Alipay,-26.0,CNY,11.8788,SPEND,import,
 c5d918b2-05a9-413f-97aa-6ea3631b00f5,2025-10-18T12:36:17,Payment Received - Tyulyandin Ivan,Transfers,Alipay,-10.0,CNY,11.8788,SPEND,import,
-c9788baf-1f6d-4517-9aa1-5aafa4cfca66,2025-10-18T10:57:47,Payment Received-AEdachev,,Alipay,1000.0,CNY,11.8788,INCOME,import,
+c9788baf-1f6d-4517-9aa1-5aafa4cfca66,2025-10-18T10:57:47,Payment Received-AEdachev,,Alipay,1000.0,CNY,11.8788,UNKNOWN_TRANSFER,import,e78040a4-62ec-4c91-bd65-e884c33d5d02
 8fa993b9-7bdd-4a93-9704-dd81b692341a,2025-10-18T00:03:50,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,-2.09,CNY,11.8788,SPEND,import,
 3e5032de-d73a-42f5-ae97-5b28d3c54a8e,2025-10-17T23:43:07,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,-0.5,CNY,11.8788,SPEND,import,
 2f1b2225-1361-4257-b7e3-94f27a7c2c8b,2025-10-17T23:29:37,Meituan Order - Combined Payment Purchase,Food & Dining,Alipay,-4.0,CNY,11.8788,SPEND,import,
 8b81634f-78af-4746-9589-6c761df20c78,2025-10-17T22:32:30,Payment Received-ILIA,,Alipay,50.0,CNY,11.8788,INCOME,import,
 e36d4081-9801-46c4-86a3-d2756106592f,2025-11-04T00:00:00,Докупил HKD (200 RMB),,RMB Наличка,200.0,CNY,11.8788,UNKNOWN_TRANSFER,,9054f184-4477-4aa6-a442-0bacda4bad1f
-ef41b559-24b8-424c-999b-7becd33b8898,2025-10-27T00:00:00,Отдал 1000 АА для перевода на алипей,,RMB Наличка,-1000.0,CNY,11.8788,UNKNOWN_TRANSFER,,
+ef41b559-24b8-424c-999b-7becd33b8898,2025-11-09T13:36:20,Отдал 1000 АА для перевода на алипей,,RMB Наличка,-1000.0,CNY,11.8788,UNKNOWN_TRANSFER,,1e74ce73-961a-479f-a8aa-e07122ccb91f
 9ae209e8-c0f4-485c-bbeb-7e9085189564,2025-10-26T00:00:00,Отдал 1000 АА (долг),Duty,RMB Наличка,-1000.0,CNY,11.8788,SPEND,Duty,
 2bc5d4cb-2667-4ba0-8824-fad3f7cc11a6,2025-10-25T00:00:00,Купил MOP (500 RMB),,RMB Наличка,-500.0,CNY,11.8788,UNKNOWN_TRANSFER,,
 bb28a66f-87da-421c-a305-ae4e11ddbafd,2025-10-24T00:00:00,Uniqlo,Shopping,RMB Наличка,-160.0,CNY,11.8788,SPEND,,
-0e592d89-c665-4267-b8e6-9c60d65d6b17,2025-10-23T00:00:00,Вторая закупка налички,,RMB Наличка,5000.0,CNY,12.0014,UNKNOWN_TRANSFER,,
+0e592d89-c665-4267-b8e6-9c60d65d6b17,2025-11-01T00:00:00,Вторая закупка налички,,RMB Наличка,5000.0,CNY,12.0014,UNKNOWN_TRANSFER,,b84b3c77-0947-41e4-a0dc-880d663df174
 91760858-9720-4d37-95fa-fccf5380e3db,2025-10-22T00:00:00,Пекин платил Илья 334,Entertainment,RMB Наличка,-400.0,CNY,11.8788,SPEND,,
 59779885-bea2-4ef7-9d38-37ca323cfb04,2025-10-21T00:00:00,Китайская стена,Entertainment,RMB Наличка,-200.0,CNY,11.8788,SPEND,,
 8507c73c-2c9c-4dd3-9dd8-503e78628d76,2025-10-20T00:00:00,Долг 200 АА,Duty,RMB Наличка,-200.0,CNY,11.8788,SPEND,Duty,
 00a9c7f9-e5e6-498b-8a8b-8e5e659f2cd5,2025-10-19T00:00:00,Cимка,Communications,RMB Наличка,-200.0,CNY,11.8788,SPEND,reimbursement,
-3bea875a-cd63-4e4e-b438-3821ee91163f,2025-10-18T00:00:00,"Отдал Джоули, на Alipay",,RMB Наличка,-4000.0,CNY,11.8788,UNKNOWN_TRANSFER,,
-ea9a0613-cac8-4455-9964-78aed3ff2a25,2025-10-17T00:00:00,"Отдал Едачеву, на Alipay",,RMB Наличка,-1000.0,CNY,11.8788,UNKNOWN_TRANSFER,,
+3bea875a-cd63-4e4e-b438-3821ee91163f,2025-10-23T22:24:54,"Отдал Джоули, на Alipay",,RMB Наличка,-4000.0,CNY,11.8788,UNKNOWN_TRANSFER,,01e3b1fb-bd9b-4400-9a17-508e28ff86ee
+ea9a0613-cac8-4455-9964-78aed3ff2a25,2025-10-18T10:57:47,"Отдал Едачеву, на Alipay",,RMB Наличка,-1000.0,CNY,11.8788,UNKNOWN_TRANSFER,,e78040a4-62ec-4c91-bd65-e884c33d5d02
 7b5af895-945c-4417-aec4-0c8129af97d9,2025-10-16T00:00:00,Первая закупка налички,,RMB Наличка,6000.0,CNY,11.8788,UNKNOWN_TRANSFER,,
 e4d51065-c741-4eca-806b-2fce0033cc21,2025-11-11T23:59:00,Tricount,Food & Dining,Tricount,-258.0,CNY,11.8788,SPEND,import,
 c9f8d4b4-62df-4e7d-b288-cf933352a2fc,2025-11-11T23:59:00,Tricount,Entertainment,Tricount,-535.0,CNY,11.8788,SPEND,import,
 9ec7a4b1-e7ad-4eff-976a-cd6f733c188e,2025-11-11T23:59:00,Tricount,Transportation,Tricount,-709.0,CNY,11.8788,SPEND,import,
 60d3f04e-5593-4a7e-b132-1c91f68f0e2e,2025-11-11T23:59:00,Tricount,Hotels,Tricount,-883.0,CNY,11.8788,SPEND,import,
 7abe96fc-5f19-4342-9ee5-97883dd597fc,2025-11-11T23:59:00,Tricount,Others,Tricount,-28.0,CNY,11.8788,SPEND,import,
-be7053dd-aa18-49f4-ad74-e6a3912397ce,2025-10-09T00:00:00,Покупка 1 билета,Travel,Альфа,-124334.0,RUB,1.0,SPEND,Notion|БТ 2025,
-5017ea13-852e-4a9c-a728-805607d4f43a,2025-10-09T00:00:00,Перевод на покупку 1 билета со сбера,,Альфа,150000.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ 2025,
 a1dbeda1-c861-4bbf-9f96-cc644a65e650,2025-10-15T00:00:00,Покупка 4000 ¥ (курс 11.7),,Наличка,46800.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ-Отдых,
 5cd34d1d-603a-4212-a370-ee6a395cd72e,2025-10-14T00:00:00,Покупка 2000 ¥ (курс 11.93),,Наличка,23860.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ-Отдых,
 1ac4f5c9-7efe-43e2-bd00-b54366a3844c,2025-11-04T00:00:00,Покупка 200 HKD,,РСХБ,2381.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ-Отдых,9054f184-4477-4aa6-a442-0bacda4bad1f
-8a53e358-3590-4a48-ab92-0d0cf2ecb3da,2025-11-01T00:00:00,Покупка-снятие 5000 ¥,,РСХБ,60007.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ-Отдых,
+8a53e358-3590-4a48-ab92-0d0cf2ecb3da,2025-11-01T00:00:00,Покупка-снятие 5000 ¥,,РСХБ,60007.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ-Отдых,b84b3c77-0947-41e4-a0dc-880d663df174
 fc4661b5-73b9-4cc5-937a-9ac912314ded,2025-10-09T00:00:00,Покупка отеля Intercontinental,Hotels,РСХБ,-40246.08,RUB,1.0,SPEND,Notion|БТ 2025,
 02ae7415-d11f-459a-9a43-c8af565a3309,2025-10-09T00:00:00,1 отель (3150 RMB),Hotels,РСХБ,-37730.7,RUB,1.0,SPEND,Notion|БТ 2025,
 c302b03a-bf7e-4dd8-976b-e0089c35d240,2025-10-09T00:00:00,Перевод на 1 покупку отелей со сбера,,РСХБ,78330.0,RUB,1.0,UNKNOWN_TRANSFER,Notion|БТ 2025,
@@ -163,3 +161,22 @@ b2041667-561f-48d5-97f0-4338b11a35be,2025-10-29T00:00:00,Самолет Гонк
 095c531e-0805-4e40-8352-6ae2a475dd5b,2025-10-25T00:00:00,Поезд Шанхай-Шанжао,Travel,Тинькофф,-4520.0,RUB,1.0,SPEND,Notion|БТ-Отдых|Логистика,
 41d36ab9-f9ed-4146-8588-c2fce9f720f3,2025-10-24T00:00:00,Поезд Шанжао-Ханчжоу,Travel,Тинькофф,-2043.0,RUB,1.0,SPEND,Notion|БТ-Отдых|Логистика,
 b31643ba-77e0-485e-b749-84152ca1b9a8,2025-10-24T00:00:00,Поезд Ханчжо-Шанхай,Travel,Тинькофф,-1057.0,RUB,1.0,SPEND,Notion|БТ-Отдых|Логистика,
+1604b58f-a66b-452b-9ad1-8151a961eed0,2025-11-18T00:00:00,Выплата за операции покупок (Кэшбэк),,Альфа,5000.0,RUB,1.0,INCOME,Alpha-Imported,
+c86e1138-2bde-4aa5-aa87-15b0c864d67a,2025-11-18T00:00:00,Никита О. (Сбербанк),,Альфа,-2000.0,RUB,1.0,UNKNOWN_TRANSFER,Alpha-Imported,
+d1b44b4d-e228-4ba4-8304-24be1c134a90,2025-11-18T00:00:00,Мария К. (Т-Банк),,Альфа,-2000.0,RUB,1.0,UNKNOWN_TRANSFER,Alpha-Imported,
+f5298847-0e34-4853-af07-91438c4a220d,2025-11-11T00:00:00,Обмен валюты,,Альфа,-1000.0,RUB,1.0,TRANSFER,Alpha-Imported,fc313603-d9ba-4736-9972-18f588291f8a
+1414698c-a8f9-4f49-a0bd-83d721c2ba15,2025-11-11T00:00:00,Обмен валюты,,Альфа-Инвест,1000.0,RUB,1.0,TRANSFER,Alpha-Imported,fc313603-d9ba-4736-9972-18f588291f8a
+fec923bc-3445-4b56-bb66-6bace2fe0544,2025-11-11T00:00:00,Выплата в рамках 10 000 руб,,Альфа,1000.0,RUB,1.0,INCOME,Alpha-Imported,
+9d7588c3-3dfc-41f9-9cc3-f8170e975237,2025-11-09T00:00:00,Комиссия за подписку Альфа,Service,Альфа,-399.0,RUB,1.0,SPEND,Alpha-Imported,
+7f4575f9-6b33-4157-ba6c-886c68c9e935,2025-10-28T00:00:00,Обмен валюты,,Альфа,-2000.0,RUB,1.0,TRANSFER,Alpha-Imported,db63542a-9e28-4d72-bdae-7325530d6ac5
+202287e3-9bef-4149-b7f5-42aa19f0c34e,2025-10-28T00:00:00,Обмен валюты,,Альфа-Инвест,2000.0,RUB,1.0,TRANSFER,Alpha-Imported,db63542a-9e28-4d72-bdae-7325530d6ac5
+5418e7c5-8c2c-41a4-87ed-d273388c315d,2025-10-17T00:00:00,Выплата в рамках Программы лояльности,,Альфа,2000.0,RUB,1.0,INCOME,Alpha-Imported,
+b938a8f1-a832-4d47-b325-576116371bc3,2025-10-16T00:00:00,Выплата в рамках Программы лояльности,,Альфа,3000.0,RUB,1.0,INCOME,Alpha-Imported,
+2421084b-eff4-49a0-b05e-c2162801ee38,2025-10-15T00:00:00,Оплата АльфаТревел,Travel,Альфа,-4717.51,RUB,1.0,SPEND,Alpha-Imported,
+6179b30a-9032-4396-8385-96f4c8c6691d,2025-10-10T00:00:00,Выплата в рамках Программы лояльности,,Альфа,2000.0,RUB,1.0,INCOME,Alpha-Imported,
+354de616-6a73-4f54-a24a-ad4f359b404c,2025-10-10T00:00:00,Выплата в рамках Программы лояльности,,Альфа,2000.0,RUB,1.0,INCOME,Alpha-Imported,
+a91f629f-f949-41ba-b17d-8f9cbf33439d,2025-10-10T00:00:00,Выплата в рамках Программы лояльности,,Альфа,500.0,RUB,1.0,INCOME,Alpha-Imported,
+50730eb4-5bdc-4938-a4e0-c9bc6dde7634,2025-10-09T00:00:00,Alfa-Travel Avia,Travel,Альфа,-124334.0,RUB,1.0,SPEND,Alpha-Imported,
+f06e856f-2835-49c5-8a39-07e5923010f7,2025-10-09T00:00:00,Алексей Ж. (Входящий),,Альфа,150000.0,RUB,1.0,UNKNOWN_TRANSFER,Alpha-Imported,
+30606065-3135-4161-8c7f-5e72db2afb3e,2025-10-09T00:00:00,Пополнение из другого банка (Т-Банк),,Альфа,10.0,RUB,1.0,UNKNOWN_TRANSFER,Alpha-Imported,
+4aa39e67-be35-4fb4-834f-30418efa80af,2025-10-09T00:00:00,Алексей Ж.,,Альфа,10.0,RUB,1.0,UNKNOWN_TRANSFER,Alpha-Imported,

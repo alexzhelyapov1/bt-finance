@@ -8,7 +8,7 @@ def merge_transfers(amount):
     candidates = list(db.filter(lambda t:
         t.op_type == OperationType.UNKNOWN_TRANSFER
         and not t.link_id
-        and ((abs(t.amount * t.rate) - abs(amount)) < 10)
+        # and (abs(t.amount) in [1000, 5000, 4000])
     ).show())
 
     if len(candidates) < 2:
