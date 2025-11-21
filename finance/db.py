@@ -52,13 +52,28 @@ class DB(Query):
     def _load(self):
         self._all_txs = []
         if not self.path.exists(): return
+
         with open(self.path, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 try:
                     row['tags'] = row['tags'].split("|") if row['tags'] else []
+
+                    # Обработка link_id при чтении (пустая строка -> None)
+                    if 'link_id' in row and row['link_id']:
+                        row['link_id'] = uuid.UUID(row['link_id'])
+                    else:
+                        row['link_id'] = None
+
                     self._all_txs.append(Transaction(**row))
-                except Exception: continue
+                except Exception as e:
+                    print(f"⚠️ Skipped bad row: {row.get('title', '?')} ({e})")
+                    continue
+
+        # --- ВАЛИДАЦИЯ ПРИ ЗАГРУЗКЕ ---
+        # Проверяем только те трансферы, у которых УЖЕ проставлен link_id.
+        # (Старые трансферы без link_id пока игнорируем или считаем легаси)
+        self.check_integrity(silent_ok=True)
 
     def commit(self):
         fieldnames = self.FIELDNAMES + ["link_id"]
@@ -126,12 +141,11 @@ class DB(Query):
         print(f"✅ Transfer added: {title} ({len(new_txs)} legs)")
         return new_txs
 
-    def check_integrity(self):
+    def check_integrity(self, silent_ok=False):
         """Скрипт для проверки всей базы на корректность переводов."""
         from collections import defaultdict
         groups = defaultdict(list)
 
-        # Группируем все трансферы по link_id
         for t in self._all_txs:
             if t.op_type == OperationType.TRANSFER and t.link_id:
                 groups[t.link_id].append(t)
@@ -141,10 +155,11 @@ class DB(Query):
             try:
                 self._validate_transfer_group(txs)
             except ValueError as e:
-                errors.append(f"Link {lid}: {e}")
+                errors.append(f"Link {lid} ('{txs[0].title}'): {e}")
 
         if errors:
-            print(f"❌ Integrity Check Failed ({len(errors)} errors):")
+            print(f"\n❌ [CRITICAL] DB Integrity Errors found ({len(errors)}):")
             for e in errors: print(f" - {e}")
-        else:
+            print("-" * 40 + "\n")
+        elif not silent_ok:
             print("✅ Integrity Check Passed: All transfers are balanced.")

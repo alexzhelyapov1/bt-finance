@@ -8,7 +8,7 @@ class Currency(str, Enum):
     RUB = "RUB"; CNY = "CNY"; EUR = "EUR"
 
 class OperationType(str, Enum):
-    SPEND = "SPEND"; INCOME = "INCOME"; TRANSFER = "TRANSFER"; LENT = "LENT"; RETURNED = "RETURNED"
+    SPEND = "SPEND"; INCOME = "INCOME"; TRANSFER = "TRANSFER"; LENT = "LENT"; RETURNED = "RETURNED"; UNKNOWN_TRANSFER = "UNKNOWN_TRANSFER"
 
 class Transaction(BaseModel):
     id: uuid.UUID = Field(default_factory=uuid.uuid4)
@@ -30,4 +30,10 @@ class Transaction(BaseModel):
         if self.op_type != OperationType.SPEND and self.category:
             self.category = None
         # Валидация перевода: link_id желателен, но не обязателен (чтобы не ломать старые записи сразу)
+        return self
+
+    @model_validator(mode='after')
+    def validate_transfer_has_link(self):
+        if self.op_type == OperationType.TRANSFER and not self.link_id:
+            raise ValueError("Transfer operation must have a link_id")
         return self
